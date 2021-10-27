@@ -10,7 +10,7 @@
       <button @click="item.checkOut()" class="btn btn-secondary">Check Out</button>
       <button @click="item.checkIn()" class="btn btn-secondary">Check In</button>
       <button @click="item.remove()" class="btn btn-warning">Remove Me</button>
-      <button @click="removeFunction(item)" class="btn btn-warning">Remove Me</button>
+<!--      <button @click="removeFunction(item)" class="btn btn-warning">Remove Me</button>-->
     </div>
   </div>
 </template>

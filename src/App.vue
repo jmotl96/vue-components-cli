@@ -1,9 +1,14 @@
 <template>
   <div id="app">
+    <header>
+
+    </header>
     <img alt="Vue logo" src="./assets/logo.png">
     <hello-tre msg="Welcome to Your Vue.js App 2"/>
     <HelloTre :msg="Goodbye"></HelloTre>
     <library></library>
+    <h3>bag</h3>
+    <bag></bag>
   </div>
 </template>
 
