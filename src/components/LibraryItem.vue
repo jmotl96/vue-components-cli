@@ -18,12 +18,14 @@
 <script>
 import Book from "./Book";
 import Movie from "@/components/Movie";
+import Album from "@/components/Album";
 
 export default {
   name: "LibraryItem",
   components: {
     Book,
-    Movie
+    Movie,
+    Album
   },
   props: {
     item: Object,

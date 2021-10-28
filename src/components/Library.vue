@@ -13,7 +13,7 @@
 
 <script>
 import LibraryCollection from "@/models/Library";
-import {Book, Movie} from "@/models/LibraryItems";
+import {Book, Movie, Album} from "@/models/LibraryItems";
 import LibraryItem from "@/components/LibraryItem";
 
 export default {
@@ -29,6 +29,7 @@ export default {
           .addItem(new Movie('Paw Patrol!', 78))
           .addItem(new Movie('Harriet', 122))
           .addItem(new Book('Brown Bear, Brown Bear', 0))
+          .addItem(new Album('50 Big Ones: Greatest Hits','The Beach Boys', 50))
     }
   },
 

@@ -49,5 +49,14 @@ class Movie{
     }
 }
 
+class Album {
+    constructor(title, artist, trackCount) {
+        this.title = title;
+        this.artist = artist;
+        this.trackCount = trackCount;
+        this.id = Math.floor(Math.random() * 10e16);
+    }
+}
+
 // export multiple classes/functions/objects/etc
-export {LibraryItem, Book, Movie}
+export {LibraryItem, Book, Movie, Album}
