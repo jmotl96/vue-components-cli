@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import BagCollection from "/models/Bag";
+import BagCollection from "@/models/Bag";
 import {Book, Movie} from "@/models/BagItem";
 import BagItem from "@/components/BagItem";
 

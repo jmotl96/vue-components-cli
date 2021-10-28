@@ -17,4 +17,8 @@ function BagCollection(){
         this.splice(this.indexOf(item), 1);
         return this;
     }
+
+    return arr;
 }
+
+export default BagCollection;
