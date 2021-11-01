@@ -24,6 +24,7 @@ export default {
   data() {
     return {
       //library: libraryCollection
+
       library: new LibraryCollection()
           .addItem(new Book('Interaction Design', 200))
           .addItem(new Movie('Paw Patrol!', 78))
@@ -31,6 +32,7 @@ export default {
           .addItem(new Book('Brown Bear, Brown Bear', 0))
           .addItem(new Album('50 Big Ones: Greatest Hits','The Beach Boys', 50))
     }
+
   },
 
 }
